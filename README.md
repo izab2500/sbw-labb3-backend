@@ -6,7 +6,7 @@ Nedan följer information om hur du installerar och använder API:et för att ut
 
 1. Klona repositoryt
 
-- git clone https://github.com/izab2500/sbw-labb2-backend.git
+- git clone https://github.com/izab2500/sbw-labb3-backend.git
 
 2. Installera beroenden (npm packet)
 
