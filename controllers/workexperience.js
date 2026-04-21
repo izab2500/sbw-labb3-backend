@@ -32,7 +32,7 @@ async function createWorkexperience(req, res) {
         const { companyname, jobtitle, location, description } = req.body;
 
         if (!companyname || !jobtitle || !location || !description) {
-            return errorResponse(res, "Fält får inte vara tomt", req.body, 400);
+            return errorResponse(res, "Fält får inte vara tomt", {}, 400);
         }
 
         const wk = new Workexperience({ companyname, jobtitle, location, description });
@@ -56,7 +56,7 @@ async function updateWorkexperience(req, res) {
     try {
         const { companyname, jobtitle, location, description } = req.body;
         if (!companyname || !jobtitle || !location || !description) {
-            return errorResponse(res, "Fält får inte vara tomt", req.body, 400);
+            return errorResponse(res, "Fält får inte vara tomt", {}, 400);
         }
 
         const id = req.params.id;
