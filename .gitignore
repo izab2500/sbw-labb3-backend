@@ -1,0 +1,40 @@
+# Utgångsmall: https://github.com/github/gitignore/blob/main/Node.gitignore
+
+# Dependencies
+node_modules/
+
+# Environment (SECRETS)
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime files
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Build / output
+dist/
+build/
+coverage/
+
+# Cache
+.npm
+.eslintcache
+.node_repl_history
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors / IDE
+.vscode/
+.vscode-test
+.idea/
+*.swp
